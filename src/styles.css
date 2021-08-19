@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+span {
+  padding-inline-start: 0;
+  padding: 0.5rem 0.3rem;
+  font-size: larger;
+  cursor: pointer;
+}
