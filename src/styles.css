@@ -1,5 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rampart+One&display=swap");
 .App {
   font-family: sans-serif;
+  text-align: center;
+  font-family: "Rampart One", cursive;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fef3c7;
+  color: #111827;
+}
+
+input {
+  border: 0;
+  padding: 0.5rem 0.9rem;
   text-align: center;
 }
 

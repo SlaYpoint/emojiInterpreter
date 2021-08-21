@@ -29,8 +29,13 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>emojiI</h1>
-      <input onChange={emojiHandler} />
+      <h1>
+        emoji-I
+        <span role="img" aria-label="emoji">
+          🔎
+        </span>
+      </h1>
+      <input onChange={emojiHandler} placeholder="search by emoji..." />
       <div>
         <h3>{meaning}</h3>
         <h3>emojis we know</h3>
