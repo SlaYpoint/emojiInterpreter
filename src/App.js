@@ -6,7 +6,12 @@ const emojiDb = {
   "🙃": "Upside-Down Face",
   "️☺️": "Smiling Face",
   "🤗": "Hugging Face",
-  "😒": "Unamused Face"
+  "😒": "Unamused Face",
+  "🤤": "Drooling Face",
+  "🤢": "Nauseated Face",
+  "😪": "Sleepy Face",
+  "🥺": "Pleading Face",
+  "🥱": "Yawning Face"
 };
 
 const emojiList = Object.keys(emojiDb);
